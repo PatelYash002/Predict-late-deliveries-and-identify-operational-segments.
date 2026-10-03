@@ -112,7 +112,7 @@ The observed distance values in the fit partition had:
 - Sample standard deviation: **10.84**
 - Observed non-missing values: **184**
 
-![Distribution of Distance](plots/histplot.png)
+![Distribution of Distance](data/plots/histplot.png)
 
 ---
 
@@ -198,7 +198,7 @@ Actual 0        28      3
 Actual 1         6     23
 ```
 
-![Logistic Regression Confusion Matrix](plots/logistic_confusion_matrix.png)
+![Logistic Regression Confusion Matrix](data/plots/confusion_matrix.png)
 
 ### Interpretation
 
@@ -275,7 +275,7 @@ Linear(8 → 1)
 
 ## 📉 ANN Training vs Validation Loss
 
-![ANN Training vs Validation Loss](plots/ann_train_vs_loss.png)
+![ANN Training vs Validation Loss](data/plots/ann_train_vs_loss.png)
 
 The training loss decreased throughout training, while the validation loss decreased initially and then leveled off around the later epochs. Early stopping was triggered after the validation loss stopped improving according to the configured patience.
 
